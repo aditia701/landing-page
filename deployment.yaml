@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx-landingpage
-        image: aditiaipr/landingpage:1.0.0
+        image: aditiaipr/landingpage:latest
         imagePullPolicy: Always
         ports:
           - containerPort: 80
